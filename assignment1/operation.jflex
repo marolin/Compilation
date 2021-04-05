@@ -11,9 +11,9 @@ float {number}*{number}
 operand1 {ineger}|{float}
 operand2 {integer}|{float}
 
-id {add({operand1}, {operand2})}
-id {minus({operand1}, {operand2})}
-id {multi({operand1}, {operand2})}
+id {add({operand1}"+"{operand2})}
+id {minus({operand1}"-"{operand2})}
+id {multi({operand1}"*"{operand2})}
 
 %{
     add(string input){
